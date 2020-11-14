@@ -10,7 +10,8 @@
 1. Add `differentStyleViewControllers.swift` and `sameStyleViewControllers.swift` files to your project.
 
 
-1. Add the following key-value to your project's `info.plist` file: `View controller-based status bar appearance` - `YES` (type: `Boolean`)
+1. Add the following key-value to your project's `info.plist` file:
+  `View controller-based status bar appearance` - `YES` (type: `Boolean`)
 
 
 1. Change your ViewController, NavigationController or TabBarController superclass to the one of the following:
@@ -20,6 +21,8 @@
 |---|---|---|---|
 | Same style | SameStyleViewController | SameStyleNavigationController | SameStyleTabBarController |
 | Different style | DifferentStyleViewController | DifferentStyleNavigationController | DifferentStyleTabBarController |
+
+
 
 |  | UserInterFaceStyle | StatusBarStyle | Status Bar letters and icons |
 |---|---|---|---|
@@ -47,7 +50,7 @@ with:
 ```
 
 
-4. Remember to include the `super.viewDidLoad()` method at the beginning of your subclass' `override method viewDidLoad()`
+  4. Remember to include the `super.viewDidLoad()` method at the beginning of your subclass' `override method viewDidLoad()`
 
 
 ```swift
