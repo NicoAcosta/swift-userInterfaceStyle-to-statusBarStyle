@@ -51,7 +51,7 @@ with:
 
 
 ```swift
-    class MyViewController : UIViewController {
+    class MyNavigationController : DifferentStyleNavigationController {
         
         override func viewDidLoad() {
             super.viewDidLoad()
@@ -59,6 +59,7 @@ with:
         }
         
         // some other code
+        
     }
 ```
 
