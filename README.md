@@ -19,9 +19,9 @@
 |  | UserInterFaceStyle | StatusBarStyle | Status Bar letters and icons |
 |---|---|---|---|
 |Same Style| `.light` (dark mode off) | `.lightContent` | white |
-|Same Style|  `.dark` (dark mode on) | `.darkContent` | black |
+|^^|  `.dark` (dark mode on) | `.darkContent` | black |
 |Different Style| `.light` (dark mode off) | `.darkContent` | black |
-|Different Style|  `.dark` (dark mode on) | `.lightContent` | white |
+|^^|  `.dark` (dark mode on) | `.lightContent` | white |
 
 1. Remember to include the `super.viewDidLoad()` method at the beginning of your subclass' `override method viewDidLoad()`
 
