@@ -16,7 +16,8 @@
 | Same style | SameStyleViewController | SameStyleNavigationController | SameStyleTabBarController |
 | Different style | DifferentStyleViewController | DifferentStyleNavigationController | DifferentStyleTabBarController |
 
-|  | UserInterFaceStyle | StatusBarStyle | Status Bar letters and icons | 
+|  | UserInterFaceStyle | StatusBarStyle | Status Bar letters and icons |
+|---|---|---|---|
 | Same Style | `.light` (dark mode off) | `.lightContent` | white |
 | Same Style |  `.dark` (dark mode on) | `.darkContent` | black |
 | Different Style | `.light` (dark mode off) | `.darkContent` | black |
