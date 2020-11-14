@@ -51,8 +51,13 @@ with:
 
 
 ```swift
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    class MyViewController : UIViewController {
+        
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            // some other code
+        }
+        
         // some other code
     }
 ```
