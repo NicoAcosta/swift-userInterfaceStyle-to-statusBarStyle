@@ -47,7 +47,7 @@ with:
 ```
 
 
-1. Remember to include the `super.viewDidLoad()` method at the beginning of your subclass' `override method viewDidLoad()`
+4. Remember to include the `super.viewDidLoad()` method at the beginning of your subclass' `override method viewDidLoad()`
 
 
 ```swift
